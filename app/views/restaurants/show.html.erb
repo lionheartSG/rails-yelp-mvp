@@ -9,6 +9,4 @@
 <hr>
 <% end %>
 
-<%= render "reviews/form", review: @review%>
-
-<p><%= link_to 'create review', new_restaurant_review_path(params[:id]) %></p>
+<%= render "review_form", review: @review%>
